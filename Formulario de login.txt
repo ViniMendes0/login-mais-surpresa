@@ -1,0 +1,123 @@
+** O que significa cada parte?
+
+http-equiv: Especifica um cabeçalho HTTP equivalente que o navegador deve interpretar. No caso de X-UA-Compatible, ele controla a compatibilidade do navegador.
+
+X-UA-Compatible: Esse valor é utilizado pelo Internet Explorer para determinar como ele deve renderizar a página. Isso é útil porque o IE tem modos de compatibilidade que replicam o comportamento de versões anteriores do navegador.
+
+IE=edge: Instrução para o IE usar o modo mais moderno (ou seja, o modo de renderização mais recente). Isso ajuda a garantir que a página seja exibida corretamente, aproveitando as últimas atualizações e melhorias do navegador.
+
+TITULO 
+
+
+
+.wrapper
+
+O .wrapper é uma convenção comum em CSS e HTML para criar um contêiner genérico que envolve ou "embrulha" um conteúdo específico. Essa classe é frequentemente usada para criar uma área centralizada e estruturada dentro de uma página da web.
+
+O Que É .wrapper?
+
+Classe Genérica: .wrapper é uma classe genérica que você pode aplicar a um elemento HTML para centralizar ou aplicar um estilo consistente a um grupo de outros elementos.
+Uso Comum: É frequentemente usada em layouts para definir uma área de conteúdo que se adapta a diferentes tamanhos de tela ou para criar uma largura fixa e centralizada para o conteúdo da página.
+
+
+.imput-box
+
+O termo input-box geralmente se refere a um contêiner ou estilo aplicado a campos de entrada (input fields) em um formulário HTML. É uma classe CSS ou um identificador usado para aplicar estilos específicos aos campos de entrada, como caixas de texto, campos de senha, caixas de seleção, etc.
+
+Uso Comum do input-box
+Estilização de Campos de Entrada: A classe input-box pode ser usada para aplicar estilos uniformes a diferentes tipos de campos de entrada em um formulário. Isso pode incluir a configuração de bordas, tamanhos, espaçamentos, e outros aspectos visuais.
+
+
+input type
+
+
+input type
+O atributo type do elemento <input> em HTML define o tipo de campo de entrada que será exibido. Dependendo do valor de type, o campo de entrada pode se comportar de maneiras diferentes e exibir diferentes tipos de controles na interface do usuário.
+
+
+placeholder
+
+
+O atributo placeholder fornece um texto sugestivo que aparece dentro de um campo de entrada quando ele está vazio. Esse texto desaparece quando o usuário começa a digitar no campo.
+
+Função do placeholder
+
+Sugestão de Entrada: Mostra uma dica ou exemplo do que deve ser digitado no campo.
+
+Melhoria da Usabilidade: Ajuda os usuários a entender o que se espera que eles preencham sem precisar de etiquetas adicionais.
+
+"rememenber"
+
+O termo remember-forgot não é um padrão ou atributo específico em HTML, CSS ou JavaScript, então pode estar se referindo a um conceito ou um nome de classe/ID usado em um projeto específico. Vamos explorar o que esses termos geralmente significam e como eles podem se relacionar:
+
+remember
+Contexto Geral:
+
+Função "Lembrar-me": Em formulários de login, a opção “Lembrar-me” é usada para permitir que o usuário permaneça autenticado em um site ou aplicativo mesmo após fechar o navegador. Essa opção geralmente envolve o uso de cookies ou armazenamento local para manter a sessão ativa.
+
+
+
+forgot
+
+
+Contexto Geral:
+
+Função "Esqueci minha senha": Um link ou botão que permite ao usuário recuperar ou redefinir a senha caso tenha esquecido. Normalmente, isso leva o usuário a uma página de recuperação de senha onde eles podem inserir seu e-mail para receber instruções sobre como redefinir a senha.
+
+checkbox
+
+checkbox é um tipo de campo de entrada (input) em formulários HTML que permite aos usuários selecionar uma ou mais opções de um conjunto de alternativas. Cada caixa de seleção pode ser marcada ou desmarcada de forma independente, e o valor associado é enviado com o formulário quando ele é submetido.
+
+
+O Que É class="btn"
+
+Classe btn: A classe btn é um nome comum para uma classe CSS que geralmente é usada para estilizar botões. É uma convenção amplamente adotada, especialmente em frameworks de design como Bootstrap, onde a classe btn é utilizada para aplicar estilos consistentes a botões.
+
+
+register link
+
+A classe register-link geralmente é usada em HTML e CSS para estilizar e identificar elementos que servem como links para páginas de registro ou inscrição. É uma convenção de nomenclatura para classes CSS e, como tal, seu significado e aparência dependem de como você ou um framework de design a define.
+
+
+vai no site boxicons 
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+copie esse link
+
+depois pesquise la mesmo "user"
+depois escolha um icone mude para font copie e cole na div de usuario
+
+depois pesquise block 
+escolha o icon 
+depois mude para font
+copie e cole na div de senha 
+
+
+100vh
+
+A propriedade min-height: 100vh; em CSS define a altura mínima de um elemento como 100% da altura da viewport (ou janela visível do navegador).
+
+Aqui está o que isso significa:
+
+min-height: Define a altura mínima de um elemento. O elemento não pode ser menor do que o valor especificado, mas pode crescer se o conteúdo interno exigir.
+
+100vh: O vh (viewport height) é uma unidade que representa 1% da altura da viewport. Portanto, 100vh significa 100% da altura total da janela do navegador.
+
+
+Quando você aplica min-height: 100vh; a um elemento, ele garantirá que o elemento sempre ocupe pelo menos a altura total da janela, independentemente do conteúdo dentro dele.
+
+space between
+
+space-between é um valor utilizado na propriedade justify-content do CSS, principalmente quando se trabalha com Flexbox. Ele é usado para controlar o alinhamento e a distribuição dos itens dentro de um contêiner flexível.
+
+Como funciona:
+justify-content: space-between;: Distribui os itens dentro do contêiner flex de forma que o primeiro item fique encostado na borda esquerda e o último item fique encostado na borda direita, e os itens restantes sejam distribuídos igualmente no espaço disponível entre eles.
+
+
+accent color
+
+accent-color é uma propriedade do CSS que permite personalizar a cor de destaque dos controles de formulário, como caixas de seleção (checkbox), botões de rádio (radio buttons), e alguns outros elementos interativos. Esta propriedade foi introduzida para facilitar a personalização desses elementos sem a necessidade de usar hacks ou técnicas complexas.
+
+
+cursor pointer
+
+ propriedade cursor: pointer; no CSS é usada para mudar a aparência do cursor do mouse quando ele passa sobre um elemento específico. Ao definir essa propriedade, o cursor do mouse se transforma em uma mãozinha (similar àquela que aparece quando você passa o mouse sobre um link), indicando ao usuário que o elemento é interativo e pode ser clicado.
